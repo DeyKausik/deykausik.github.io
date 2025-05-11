@@ -1,0 +1,1559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://kit.fontawesome.com/fdee2e3db7.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kausik Dey - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/kd.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-picture.png" alt="Kausik Dey" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kausik Dey">Kausik Dey</h1>
+
+          <p class="title">VA-PT Analyst</p>
+        </div>
+
+        <div class="certification-logos">
+          <img src="./assets/images/iiht.png" alt="Certification 1" width="60" title="Advanced Networking">
+          <img src="./assets/images/eccouncil.png" alt="Certification 2" width="60" title="Ethical Hacking Essentials">
+          <img src="./assets/images/thm.png" alt="Certification 3" width="60" title="Pre Security">
+        </div>
+      </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contact Me</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kausikdey008@gmail.com" class="contact-link">kausikdey008@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919830175655" class="contact-link">+91 9830175655</a>
+            </div>
+
+          </li>
+
+          <!-- This is a comment 
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1998-01-06">January 6, 1998</time>
+            </div>
+
+          </li>
+
+          -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kolkata, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kausik-d-b67011182/" target="_blank"><i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/DeyKausik" target="_blank"><i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@kausikdey008" target="_blank"><i class="fa-brands fa-medium"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <h3>
+            Hi, I'm Kausik! 👋
+          </h3>
+
+          <p>
+            As a VAPT Analyst, I've dedicated myself to scope and perform penetration testing and vulnerability research of vaious types of Web Applications and APIs.
+          </p>
+
+          <p>
+            I'm particularly passionate to identify and assess vulnerabilities in systems and applications. This includes utilizing manual and automated testing methods to find and exploit code flaws, misconfigurations, and insecure software.
+          </p>
+
+          <p>
+            My experience spans across Penetration Testing of Web Applications & APIs, Vulnerability Management, and Cyber Security, complemented by industry certifications like Advanced Networking from IIHT, Ethical Hacking Essencials (EHE) from EC Council and Pre Security & Web Fundamentals from TryHackMe. I believe in continuous learning and staying ahead of evolving cyber threats.
+          </p>
+
+          <p>
+            I'm currently seeking opportunities where I can contribute to strengthening organizations' security postures while continuing to grow in different Penetration Testting areas like Large Language Models (LLM), Thick-Client, Mobile Application, Cloud and Network.
+          </p>
+
+          <p>
+            Let's connect and make the digital world a safer place! 🛡️
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing 🧑🏻‍💻</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/pt.png
+                " alt="Pen Test" width="60">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Security Assessment & Penetration Test</h4>
+
+                <p class="service-item-text">
+                  Application Security Assessment & Penetration Testing of Web Application and API end points to identify potential threat, vulnerability in the application stack. Combination of Black box & White box approach is followed.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/sa.png" alt="Security Architecture" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Application Security Architecture</h4>
+
+                <p class="service-item-text">
+                  Preparation of a security architecture for the application intended for deployment in an on-site data center, a landing zone within a public cloud, and integration with external SaaS providers.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/audit.png" alt="Security Audit" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">RFP - 3rd Party Security Audit</h4>
+
+                <p class="service-item-text">
+                  Preparation of Scope of Work in RFP (Request For Proposal) for 3rd party security audit for the identified Applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/freeware.png" alt="Security Advisory Freeware" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Security Advisory Freeware</h4>
+
+                <p class="service-item-text">
+                  Preparation of security advisory for the Freeware / Open-Source software to be used in the organization network using global Vulnerability database such as - NIST NVD and CVE MITRE.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/sc.png" alt="Standards & Checklists Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Security Standards & Checklists</h4>
+
+                <p class="service-item-text">
+                  Create and maintain various security standard documents, as well as platform hardening checklists for diverse computing systems.
+                </p>
+              </div>
+
+            </li>
+<!--
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/forensics.png" alt="Digital Forensics Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Forensics</h4>
+
+                <p class="service-item-text">
+                  Investigating compromised systems using Autopsy and Volatility to recover digital evidence and reconstruct attack timelines.
+                </p>
+              </div>
+
+            </li>
+-->
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Badges 🔰</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/network.png" alt="Network Fundamentals" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://tryhackme.com/KausikDey/badges/network-fundamentals" style="color: inherit; text-decoration: none;" target="_blank">Network Fundamentals</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/linux.png" alt="Linux" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://tryhackme.com/KausikDey/badges/terminaled" style="color: inherit; text-decoration: none;" target="_blank">Linux</a>
+              </h4>
+
+              </div>
+            </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/www.png" alt="World Wide Web" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://tryhackme.com/KausikDey/badges/world-wide-web" style="color: inherit; text-decoration: none;" target="_blank">World Wide Web</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/owaspweb.png" alt="OWASP Web Top 10" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://tryhackme.com/KausikDey/badges/owasp-10" style="color: inherit; text-decoration: none;" target="_blank">OWASP Web Top 10</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/owaspapi.png" alt="OWASP API Top 10" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://tryhackme.com/KausikDey/badges/software-security" style="color: inherit; text-decoration: none;" target="_blank">OWASP API Top 10</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/burpsuite.png" alt="Burp Suite" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://tryhackme.com/KausikDey/badges/burped" style="color: inherit; text-decoration: none;" target="_blank">Burp Suite</a>
+              </h4>
+
+              </div>
+            </li>
+
+<!--
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/web_attack.webp" alt="Web Attack Investigator" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://app.letsdefend.io/my-rewards/detail/141a8afc-5560-4b96-ae09-5bbb6105b408" style="color: inherit; text-decoration: none;" target="_blank">Web Attack Investigator</a>
+              </h4>
+
+              </div>
+            </li>
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/networkanalyzer.png" alt="Network Analyzers" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://app.letsdefend.io/my-badges/detail/b98f3f2c-9e28-43fb-9273-01b1f3300c30" style="color: inherit; text-decoration: none;" target="_blank">Network Analyzer</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/itsecexpert.png" alt="IT Security Expert" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://app.letsdefend.io/my-badges/detail/f4527dbf-123c-433b-bbf2-c485baaa3ea1" style="color: inherit; text-decoration: none;" target="_blank">IT Security Expert</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/malware_analyzer.png" alt="Malware Analyzers" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://app.letsdefend.io/my-badges/detail/1b41eebf-55cc-4d04-9866-587e1227b488" style="color: inherit; text-decoration: none;" target="_blank">Malware Analyzer</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/powershell.png" alt="Powershell Scripting" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://app.letsdefend.io/my-badges/detail/607a9914-b76b-43b4-ba87-a8e4cafa1969" style="color: inherit; text-decoration: none;" target="_blank">Powershell Scripting</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/phishing.png" alt="Phishing Expert" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://app.letsdefend.io/my-badges/detail/c88e97fe-a0dc-4442-ba45-144dc203db0a" style="color: inherit; text-decoration: none;" target="_blank">Phishing Expert</a>
+              </h4>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/badges/bruteforce.png" alt="Brute Force Expert" width="60" Skill Logo>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  <a href="https://app.letsdefend.io/my-badges/detail/a948d991-d697-4579-9d79-b7db5e3f0aef" style="color: inherit; text-decoration: none;" target="_blank">Brute Force Expert</a>
+              </h4>
+
+              </div>
+            </li>
+-->
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - Certifications
+        -->
+
+        <section class="Certifications">
+
+          <h3 class="h3 Certifications">Certifications 🏆</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1UuaOiLN4V-G8FKYhOJnRCfLKCEdYbdsN/view?usp=drive_link">
+                <img src="./assets/images/iihtan.png" alt="Advance Networking">
+              </a>
+            </li>
+            
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1JrQpIabUu-kJlYIyfK-AxyJjm1CxUMHN/view?usp=drive_link">
+                <img src="./assets/images/ecehe.png" alt="Ethical Hacking Essentials">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1frpyMjdPQvmFkkGbMEDq0cRKkdA8HKmH/view?usp=drive_link">
+                <img src="./assets/images/isc2cc.png" alt="Certified in Cybersecurity (CC)">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1ar2mcl6emRx5vks4g3Ip7NGYJZriheeT/view?usp=drive_link">
+                <img src="./assets/images/llowasp.png" alt="Master the OWASP Top 10">
+              </a>
+            </li>
+            
+            
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/14HAGlX2G9pH90kWZpU8cEPWINB8A1nzJ/view?usp=drive_link">
+                <img src="./assets/images/thmpsec.png" alt="Pre Security">
+              </a>
+            </li>
+<!--
+            <li class="clients-item">
+              <a href="https://www.credly.com/badges/22e19bb8-920f-4d04-ac5e-89f2f8c50e71/public_url">
+                <img src="./assets/images/ibm_netsec.png" alt="IBM Certification logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.credly.com/earner/earned/badge/c393d6c7-9f8d-43c4-b031-ac6a98ce2af2">
+                <img src="./assets/images/AWS.png" alt="AWS Certification logo">
+              </a>
+            </li>
+-->
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Seacom Engineering College</h4>
+
+              <span>2021 — 2024</span>
+
+              <p class="timeline-text">
+                Bachelor of Technology in Electronics & Communication Engineering. 
+              </p>
+              <p class="timeline-text">
+                Score - 72.77%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ramakrishna Mission Shilpamandira</h4>
+
+              <span>2016 — 2019</span>
+
+              <p class="timeline-text">
+              Diploma in Electronics & Telecommunication Engineering. 
+              </p>
+              <p class="timeline-text">
+              Score - 92.44%
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Howrah Zilla School</h4>
+
+              <span>2014 — 2016</span>
+
+              <p class="timeline-text">
+              Higher Secondary Standard in Science. 
+              </p>
+              <p class="timeline-text">
+              Score - 80.00%
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kona High School</h4>
+
+              <span>2008 — 2014</span>
+
+              <p class="timeline-text">
+              Secondary Standard. 
+              </p>
+              <p class="timeline-text">
+              Score - 84.71%
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+          </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VA-PT Analyst</h4>
+              <span>ITC Infotech</span>
+              <span>January 2023 — Present</span>
+
+              <p class="timeline-text">
+                
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior System Admin</h4>
+              <span>ITC Infotech</span>
+              <span>May 2022 — January 2023</span>
+
+              <p class="timeline-text">
+              
+              </p>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">System Engineer</h4>
+              <span>L&T Construction</span>
+              <span>July 2019 - March 2022 </span>
+
+              <p class="timeline-text">
+                
+              </p>
+
+            </li>
+<!--
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cyber Security Intern</h4>
+              <span>FirstCry.com</span>
+              <span>Jan 2020 - Jun 2020 </span>
+
+              <p class="timeline-text">
+                
+              </p>
+
+            </li>
+-->
+          </ol>
+
+        </section>
+
+        <section class="resume">
+
+          <h3 class="h3 resume-title">Download My Resume</h3>
+        
+          <div class="resume-download-btn content-card">
+            <a href="./assets/images/CV.pdf" download="CV.pdf">
+              <button class="download-button">Download</button>
+            </a>
+          </div>
+        
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+<!--
+            <li class="filter-item">
+              <button data-filter-btn>Blue Team Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Red Team Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Vulnerability Assessments</button>
+            </li>
+-->
+            <li class="filter-item">
+              <button data-filter-btn>Blogs</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Projects</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+<!--
+              <li class="select-item">
+                <button data-select-item>Blue Team Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Red Team Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Vulnerability Assessments</button>
+              </li>
+-->
+              <li class="select-item">
+                <button data-select-item>Blogs</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Projects</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="blogs">
+              <a href="https://medium.com/@kausikdey008/crapi-walkthrough-c00356df1a52">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/crAPI.png" alt="crAPI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CRAPI Walkthrough</h3>
+
+                <p class="project-category">API Pentesting</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="blogs">
+              <a href="https://medium.com/@kausikdey008/vapi-walkthrough-3ebf94884255">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/vAPI.png" alt="vAPI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VAPI Walkthrough</h3>
+
+                <p class="project-category">API Pentesting</p>
+
+              </a>
+            </li>
+<!--
+            <li class="project-item  active" data-filter-item data-category="blue team projects">
+              <a href="https://medium.com/@borikarkush/letsdefend-malware-analyst-path-c2ed9953af97">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/malware1.png" alt="Malware Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Malware Analysis Lab - FalreVM</h3>
+
+                <p class="project-category">Malware Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blue team projects">
+              <a href="https://medium.com/@borikarkush/malicious-network-traffic-analysis-using-wireshark-a-walkthrough-91a1c3a258fe">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/wireshark_project.png" alt="Wireshark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">WIRESHARK - Malicious Network Traffic Analysis</h3>
+
+                <p class="project-category">Network Traffic Analysis</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="vulnerability assessments">
+              <a href="https://github.com/kushb98/Application-Security-Analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/applicationsecurity.png" alt="Application Security Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Application Security Analysis</h3>
+
+                <p class="project-category">Vulnerability Assessments</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="more projects">
+              <a href="https://github.com/kushb98/Active-Directory-Lab">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/activedirectory.png" alt="Active Active-Directory-Lab" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Active Directory Administration</h3>
+
+                <p class="project-category">Network Configuration & Administration</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="blue team projects">
+              <a href="https://github.com/kushb98/Xcitium---OPENEDR">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Xcitium.png" alt="EDR" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">xcitium - OPENEDR</h3>
+
+                <p class="project-category">Endpoint Detection & Response</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="more projects">
+              <a href="https://github.com/kushb98/File-Integrity-Monitor">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/fim_logo.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Powershell File Integrity Monitor</h3>
+
+                <p class="project-category">Powershell</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="more projects">
+              <a href="https://github.com/kushb98/Secure-Bank-Web-Application">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bankwebapp1.png" alt="Bank Web Application" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Python Bank Web Application</h3>
+
+                <p class="project-category">Web Application Design</p>
+
+              </a>
+            </li>
+
+          -->
+
+            <li class="project-item  active" data-filter-item data-category="blogs">
+              <a href="https://medium.com/@kausikdey008/cyber-security-950b7f05885f">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cybersecurity.png" alt="Cyber Security" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cyber Security</h3>
+
+                <p class="project-category">Information Technology</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blogs">
+              <a href="https://medium.com/@kausikdey008/application-security-766f1d3a425c">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/applicationsecurity.png" alt="Application Security" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Application Security</h3>
+
+                <p class="project-category">Information Technology</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blogs">
+              <a href="https://medium.com/@kausikdey008/owasp-web-app-security-top-10-672714913a1e">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/websecurity.png" alt="OWASP Web App Security Top 10" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OWASP Web App Security Top 10</h3>
+
+                <p class="project-category">Information Technology</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blogs">
+              <a href="https://medium.com/@kausikdey008/owasp-api-security-top-10-c6eb55bf42c3">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/apisecurity.png" alt="OWASP API Security Top 10" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OWASP API Security Top 10</h3>
+
+                <p class="project-category">Information Technology</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+  - #SKILLS
+-->
+
+<article class="skills" data-page="skills">
+  
+
+  <header>
+    <h2 class="h2 article-title">Skills & Tools</h2>
+  </header>
+
+  <!--
+          - service
+        -->
+
+        <section class="skills-without-icons">
+
+          <h3 class="h3 skills-title">Skills</h3>
+        
+          <ul class="skills-list-without-icons">
+        
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">OS: Windows & Linux</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Computer Network</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Network Security</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Active Directory</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Virualization</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Cloud Computing</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Vulnerability Assessment</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Vulnerability Databases</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Penetration Testing</h5>
+              </div>
+            </li>
+        
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Web and API Security</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">OWASP Top 10</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Manual & Automated Testing</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">SAST & DAST</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Business Logic Testing</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Hardening & Patching</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Cryptography</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Data Security</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Reporting & Documentation</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Social Engineering</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Analytical & Critical Thinking</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Problem-Solving</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Attention to Detail</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Risk Assessment</h5>
+              </div>
+            </li>
+
+            <li class="skills-item-without-icons">
+              <div class="skills-content-box-without-icons">
+                <h5 class="h5 skills-item-title-without-icons">Continuous Learning</h5>
+              </div>
+            </li>
+        
+          </ul>
+        
+        </section>
+
+        <!--
+          - tools
+        -->
+
+        <section class="tools">
+
+          <h3 class="h3 tools-title">Tools</h3>
+        
+          <ul class="tools-list">
+        
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/burpsuite-logo.png" alt="Burp Suite" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Burp Suite</h4>
+              </div>
+            </li>
+        
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/nessus.png" alt="Nessus" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Nessus</h4>
+              </div>
+            </li>
+        
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/nmap-logo.png" alt="Nmap" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Nmap</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/wireshark-logo.png" alt="Wireshark" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Wireshark</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/theharvester-logo.png" alt="TheHarvester" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">TheHarvester</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/sslscan-logo.png" alt="Sslscan" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Sslscan</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/sslyze-logo.png" alt="Sslyze" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Sslyze</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/dirb-logo.png" alt="Dirb" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Dirb</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/gobuster-logo.png" alt="Gobuster" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Gobuster</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/wapiti-logo.png" alt="Wapiti" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Wapiti</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/sqlmap-logo.png" alt="Sqlmap" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Sqlmap</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/nikto-logo.png" alt="Nikto" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Nikto</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/hashcat-logo.png" alt="Hashcat" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Hashcat</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/hydra-logo.png" alt="Hydra" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">Hydra</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/john-logo.png" alt="John the Ripper" width="40">
+                </div>
+                <h4 class="h4 tool-item-title">John the Ripper</h4>
+              </div>
+            </li>
+
+            <li class="tool-item">
+              <div class="tool-content-box">
+                <div class="tool-icon-box">
+                  <img src="./assets/images/microsoft.png" alt=" Microsoft Suite" width="40">
+                </div>
+                <h4 class="h4 tool-item-title"> Microsoft Suite</h4>
+              </div>
+            </li>
+
+          </ul>
+        
+        </section>
+
+  </article>  
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        
+      
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32366362.013309717!2d71.86767000275263!3d28.08810522181977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1743861485079!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+      
+
+        <section class="contact-form" style="color: white; line-height: 1.8;">
+
+          <h3 class="h3 form-title" style="color: white; margin-bottom: 20px;">Contact Details</h3>
+        
+          <div class="contact-item" style="margin-bottom: 20px;">
+            <h4 style="color: white;">Email</h4>
+            <p>
+              <strong>Primary:</strong> <a href="mailto:kausikdey008@gmail.com" style="color: white; text-decoration: underline;">kausikdey008@gmail.com</a><br>
+              <strong>Secondary:</strong> <a href="mailto:deykausik575@gmail.com" style="color: white; text-decoration: underline;">deykausik575@gmail.com</a>
+            </p>
+          </div>
+        
+          <div class="contact-item" style="margin-bottom: 20px;">
+            <h4 style="color: white;">Phone</h4>
+            <p>
+              <span style="color: white;">+91 9830175655</span>
+            </p>
+          </div>
+        
+          <div class="contact-item" style="margin-bottom: 20px;">
+            <h4 style="color: white;">Location</h4>
+            <p>
+              Kolkata, India.
+            </p>
+          </div>
+        
+        </section>
+              
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
